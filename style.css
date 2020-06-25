@@ -25,3 +25,7 @@ h2{
     background-color:black;
     border-radius:40px 40px 0px 0px;
 }
+form{
+    text-align:left;
+    font-size:20px;
+}
