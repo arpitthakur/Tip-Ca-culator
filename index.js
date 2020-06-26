@@ -15,5 +15,11 @@ function clalculator(e){
     }else{
         document.getElementById('makeHidden').style.display="block";
     }
+    let percent = amount - (amount*discount/100);
+    let total = percent / people;
+    total = total.toFixed(2);
+    document.getElementById('each').innerHTML= total;
+    document.getElementById('makeHidden').style.display="block";
 
 }
+document.getElementById('makeHidden').style.display="none";
