@@ -10,5 +10,10 @@ function clalculator(e){
         alert("You need to fill in all the fields!");
         return;
     }
+    if (people <= 1){
+        document.getElementById('makeHidden').style.display="none";
+    }else{
+        document.getElementById('makeHidden').style.display="block";
+    }
 
 }
