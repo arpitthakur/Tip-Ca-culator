@@ -8,6 +8,7 @@ function clalculator(e){
     if (amount === "" ||discount === 0 || people === ""){
         
         alert("You need to fill in all the fields!");
+        return;
     }
-    
+
 }
